@@ -1,7 +1,7 @@
 var request = require('http/v3/request');
 var response = require('http/v3/response');
 
-var method = request.getMethod();
+var method = request.getMethod(); // method
 var authType = request.getAuthType(); // auth type
 
 response.println("[Method]: " + method);
