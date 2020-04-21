@@ -8,6 +8,7 @@ var authType = request.getAuthType(); // auth type
 
 // change 2
 // change 3
+// change 4
 
 response.println("[Method]: " + method); // print method
 response.println("[Auth Type]: " + authType);
