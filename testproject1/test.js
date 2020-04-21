@@ -7,6 +7,7 @@ var authType = request.getAuthType(); // auth type
 // commit in branch 1
 
 // change 2
+// change 3
 
 response.println("[Method]: " + method); // print method
 response.println("[Auth Type]: " + authType);
